@@ -1,0 +1,25 @@
+.title {
+  &:not(:first-child) {
+    margin-top: 15px;
+  }
+}
+
+.text {
+  margin-top: 10px;
+  text-align: justify;
+  max-height: 150px;
+  overflow-y: auto;
+  width: 380px;
+  background-color: #eedfdfdb;
+  padding: 10px 10px 10px 10px;
+}
+
+.wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & input {
+    margin-left: 10px;
+  }
+}

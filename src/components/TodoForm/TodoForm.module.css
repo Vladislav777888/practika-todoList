@@ -1,0 +1,11 @@
+.input {
+  display: block;
+  margin-top: 3px;
+  padding: 5px 15px;
+}
+
+.input.error,
+.input.error:focus {
+  border: 2px solid #bf0808;
+  outline: none;
+}

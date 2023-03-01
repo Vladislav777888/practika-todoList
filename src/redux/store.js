@@ -8,18 +8,11 @@ import {
   PURGE,
   REGISTER,
 } from 'redux-persist';
-
-import { contactsInitState } from './contacts.init-state';
-import { contactsReducer } from './contactsSlice';
-
-// const initState = {
-//   contacts: contactsInitState,
-// };
+import { persistedReducer } from './tasksSlice';
 
 export const store = configureStore({
-  preloadedState: contactsInitState,
   devTools: true,
-  reducer: contactsReducer,
+  reducer: persistedReducer,
 
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({

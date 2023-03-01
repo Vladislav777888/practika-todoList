@@ -1,0 +1,60 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.isActive {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+}
+
+.modal {
+  padding: 15px;
+  width: 400px;
+  background-color: #fff;
+  max-height: 95%;
+  position: relative;
+  text-align: center;
+
+  transform: scale(0.3);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 4px 3px 12px -1px #ff6b0880;
+  overflow: auto;
+
+  &.isActive {
+    transform: scale(1);
+  }
+}
+
+.button {
+  margin-top: 30px;
+  width: 50px;
+  height: 29px;
+  padding: 0 20px;
+  background-color: #fff;
+
+  align-items: center;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: bisque;
+  }
+}

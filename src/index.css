@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import 'modern-normalize/modern-normalize.css';
 
 body {
   margin: 0;
@@ -21,6 +21,7 @@ code {
 }
 
 /* Класс для обнуления базовых свойств у списков (ul) */
+ol,
 ul {
   list-style: none;
   padding-left: 0;
