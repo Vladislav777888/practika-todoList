@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/practika-todoList/static/css/main.4af14cd6.css",
-    "main.js": "/practika-todoList/static/js/main.9d3e64ae.js",
+    "main.css": "/practika-todoList/static/css/main.ff2bb5b4.css",
+    "main.js": "/practika-todoList/static/js/main.7cff2916.js",
     "index.html": "/practika-todoList/index.html",
-    "main.4af14cd6.css.map": "/practika-todoList/static/css/main.4af14cd6.css.map",
-    "main.9d3e64ae.js.map": "/practika-todoList/static/js/main.9d3e64ae.js.map"
+    "main.ff2bb5b4.css.map": "/practika-todoList/static/css/main.ff2bb5b4.css.map",
+    "main.7cff2916.js.map": "/practika-todoList/static/js/main.7cff2916.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af14cd6.css",
-    "static/js/main.9d3e64ae.js"
+    "static/css/main.ff2bb5b4.css",
+    "static/js/main.7cff2916.js"
   ]
 }
